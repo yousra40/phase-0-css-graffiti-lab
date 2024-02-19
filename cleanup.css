@@ -1,0 +1,31 @@
+/* Override existing styles to hide graffiti tags */
+
+/* Use more specific selectors to override the styles */
+#wall .tag-1 {
+  display: none; /* Hide tag-1 graffiti */
+}
+
+/* Use the same approach for the rest of the graffiti tags */
+#wall #tag-2 {
+  display: none; /* Hide tag-2 graffiti */
+}
+
+#wall .slick.wicked {
+  display: none; /* Hide tag-3 graffiti */
+}
+
+#wall .parent > #tag-4 {
+  display: none; /* Hide tag-4 graffiti */
+}
+
+#wall .parent > .slick {
+  display: none; /* Hide tag-5 graffiti */
+}
+
+#wall .parent > div > div > #tag-6 {
+  display: none; /* Hide tag-6 graffiti */
+}
+
+#wall .parent > div + div > .slick {
+  display: none; /* Hide tag-7 graffiti */
+}
